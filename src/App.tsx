@@ -8,11 +8,20 @@ import { useMutation } from "@tanstack/react-query";
 import { addLoan } from "./api/loans/addLoan";
 import { addLoanSuccess } from "./api/loans/addLoanSuccess";
 import { addLoanError } from "./api/loans/addLoanError";
+import { Toaster } from "react-hot-toast";
+import { useQueryClient, useQuery } from "@tanstack/react-query";
+import { fetchLoans } from "./api/loans/fetchLoans";
+import { Loan as LoanType } from "./@types/types";
 
 export default function App() {
     const [isOpen, setIsOpen] = useState(false);
+    const queryClient = useQueryClient();
     const [loan, setLoan] = useState({ name: "", budget: "" });
-    const addLoanMutation = useMutation(addLoan, { onSuccess: addLoanSuccess, onError: addLoanError });
+    const { data: loans } = useQuery<LoanType[]>(["loans", fetchLoans]);
+    const addLoanMutation = useMutation(() => addLoan(loan), {
+        onSuccess: (data) => addLoanSuccess(data, queryClient),
+        onError: addLoanError
+    });
 
     function openModal() {
         setIsOpen(true);
@@ -56,6 +65,7 @@ export default function App() {
                     </form>
                 </Modal>
             </section>
+            <Toaster position="bottom-center" />
         </>
     )
 }
