@@ -1,0 +1,41 @@
+@import "./button";
+
+@mixin loan {
+    padding: 1rem;
+    background: white;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        color: $secondary;
+        margin-inline: auto;
+    }
+
+    img {
+        width: 80px;
+        border-radius: 50%;
+        margin-inline: auto;
+    }
+
+    p {
+        font-weight: 700;
+        color: $secondary;
+
+        span {
+            color: #BF1020;
+            margin-left:.25rem;
+        }
+    }
+
+    .buttons-container {
+        display: flex;
+        gap: .5rem;
+        margin-top: .5rem;
+
+        button {
+            @include button;
+            width: 50%;
+        }
+    }
+}

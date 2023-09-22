@@ -1,0 +1,64 @@
+@import "../components/loan";
+@import "../components//button";
+
+#home-page {
+    padding-block: 1rem;
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+
+        .loans-container {
+            padding: 1.5rem;
+
+            .add-load-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                button {
+                    @include button;
+                    background: $primary;
+                    border-radius: 50px;
+                    padding: .5rem 1.5rem;
+                    border: none;
+                }
+
+                h1 {
+                    margin-bottom: .75rem;
+                    color: $secondary;
+                }
+            }
+
+
+            .loans {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 1rem;
+
+                .loan {
+                    @include loan;
+                }
+            }
+        }
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 75px;
+            }
+
+            h1 {
+                font-size: 2rem;
+                color: $secondary;
+
+                span {
+                    color: $primary;
+                }
+            }
+
+        }
+    }
+}

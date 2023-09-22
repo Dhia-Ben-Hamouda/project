@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap');
+@import "./components/button";
+
+$primary: #016837;
+$secondary: #666;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+.shadow {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+    width:325px;
+
+    button{
+        @include button;
+    }
+}
+
+@import "./pages/homePage";
+@import "./components/modal";
