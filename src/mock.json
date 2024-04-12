@@ -1,0 +1,122 @@
+[
+    {
+        "title":"AUDIT",
+        "text":"Le contr\u00f4leur fiscal d\u00e9barque ! Tu perds 3\u00a2.",
+        "id":"d745eeab-1802-4e67-bb8d-66657f8c994f"
+    },
+    {
+        "title":"BOOM \u00c9CONOMIQUE",
+        "text":"C\u2019est la f\u00eate au village ! Chaque joueur gagne 3\u00a2.",
+        "id":"549ea44b-6e9c-41be-aae1-e79790b1c8a6"
+    },
+    {
+        "title":"BRAQUAGE",
+        "text":"Coup de Ma\u00eetre ! Pique 2\u00a2 \u00e0 un adversaire.",
+        "id":"512f6386-d297-4cc5-864d-9b933835b337"
+    },
+    {
+        "title":"BRAQUAGE",
+        "text":"Coup de Ma\u00eetre ! Pique 2\u00a2 \u00e0 un adversaire.",
+        "id":"2a388c5a-b528-417b-be3a-3d5b0cc78715"
+    },
+    {
+        "title":"COUP POLITIQUE",
+        "text":"Tu as le pouvoir du POLITICIEN. Change tes cartes !\n(si tu en as envie)",
+        "id":"6e422eef-f45d-4769-a07b-0fdea08cced0"
+    },
+    {
+        "title":"COUP POLITIQUE",
+        "text":"Tu as le pouvoir du POLITICIEN. Change tes cartes !\n(si tu en as envie)",
+        "id":"58d95aae-5a3f-47d0-afae-d27e6d01048f"
+    },
+    {
+        "title":"CRISE FINANCI\u00c8RE",
+        "text":"Effondrement Boursier! Chaque joueur perd 2\u00a2.",
+        "id":"3ece817e-215f-4e88-849f-15d0dcc6f7fc"
+    },
+    {
+        "title":"DEAL",
+        "text":"N\u00e9gociation r\u00e9ussie ! Ach\u00e8te une carte du paquet pour 3\u00a2.\n\n(Valable si tu as une seule carte)",
+        "id":"7343ea03-ee83-4bd6-8794-8cc453892bc0"
+    },
+    {
+        "title":"D\u00c9GUISEMENTS",
+        "text":"Tu as le choix, utilise le r\u00f4le que tu veux.\n\n(personne ne peut appeler au bluff)",
+        "id":"9c8eba86-bf08-45d2-90ff-0456c5343e44"
+    },
+    {
+        "title":"D\u00c9GUISEMENTS",
+        "text":"Tu as le choix, utilise le r\u00f4le que tu veux.\n\n(personne ne peut appeler au bluff)",
+        "id":"4b235863-b27f-42ff-84a3-403c39e6b8e6"
+    },
+    {
+        "title":"\u00c9CHANGE TACTIQUE",
+        "text":"\u00c9change une carte avec un adversaire de ton choix.",
+        "id":"11e7853c-9f83-4ed2-a878-3243b2e84d9e"
+    },
+    {
+        "title":"\u00c9CHANGE TACTIQUE",
+        "text":"\u00c9change une carte avec un adversaire de ton choix.",
+        "id":"b4ef70b1-bd2f-4fcc-876c-bdda2e4a7fe5"
+    },
+    {
+        "title":"IMMUNITE TOTALE",
+        "text":"Aucune action adverse ne peut t'atteindre pendant 1 tour.\n(Conserve cette carte jusqu'\u00e0 ton prochain tour)",
+        "id":"93712154-53ec-4c15-9f99-adf9b12ff306"
+    },
+    {
+        "title":"JACKPOT",
+        "text":"C'est l'heure de devenir riche ! Remporte 4\u00a2.",
+        "id":"dfb868ea-56e6-46ed-844a-ec87002a34a9"
+    },
+    {
+        "title":"LE SHOW",
+        "text":"Applaudissements, S'il Vous Pla\u00eet ! R\u00e9v\u00e8le fi\u00e8rement une de tes cartes \u00e0 tous !",
+        "id":"1a7bb44a-0ba4-43cc-84ea-db8cb6ebfc53"
+    },
+    {
+        "title":"REPLAY",
+        "text":"Double Man\u0153uvre ! Joue 2 actions en un seul tour.",
+        "id":"9dd8269b-f52d-471a-9d1f-3b34e5b17db7"
+    },
+    {
+        "title":"REPLAY",
+        "text":"Double Man\u0153uvre ! Joue 2 actions en un seul tour.",
+        "id":"47d9aada-0a3a-4fc3-8ed4-88e5d66e8ac9"
+    },
+    {
+        "title":"R\u00c9VOLUTION",
+        "text":"Les cartes changent de mains.\nChaque joueur prend une carte\nde son voisin de gauche.",
+        "id":"4f6d4d41-4be4-4501-a2cf-06a2322a7014"
+    },
+    {
+        "title":"R\u00c9VOLUTION",
+        "text":"Les cartes changent de mains.\nChaque joueur prend une carte\nde son voisin de gauche.",
+        "id":"0ead150f-fc45-49e7-8206-4e19b876c833"
+    },
+    {
+        "title":"SECONDE CHANCE",
+        "text":"Miracle ! Le dernier joueur \u00e9limin\u00e9 r\u00e9int\u00e8gre le jeu avec 1 carte et 4\u00a2.",
+        "id":"aa330443-eb2b-4d63-b51d-4147d7c5ae70"
+    },
+    {
+        "title":"SOLDE MORTEL",
+        "text":"-50%\nASSASSINAT \u00e0 3\u00a2 seulement",
+        "id":"712e3542-7946-4c7a-9572-d94387b76d87"
+    },
+    {
+        "title":"SOLDE MORTEL",
+        "text":"-50%\nASSASSINAT \u00e0 3\u00a2 seulement",
+        "id":"72746d25-d361-4a71-9bc6-2a021daddd36"
+    },
+    {
+        "title":"TAXE DE SOLIDARIT\u00c9",
+        "text":"Surprise ! Chaque joueur te donne 1\u00a2.\n(Si tu as 13\u00a2, le surplus va \u00e0 la banque)",
+        "id":"81334bdf-bb6e-4075-af38-6db968d52955"
+    },
+    {
+        "title":"TRANSFERT DE FORTUNE",
+        "text":"Le vent tourne ! \u00c9change tes pi\u00e8ces avec un autre joueur.",
+        "id":"6d91da7b-2b9c-4cb9-a4fb-8befa26f8c9d"
+    }
+]
